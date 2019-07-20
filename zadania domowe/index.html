@@ -30,7 +30,7 @@
     <a href="#sekcja">link do sekcji</a>
     <a href="mailto:kursy@akademia108.pl">kursy@akademia108.pl</a>
     <!-- Tabele -->
-    
+
     <table>
         <thead>
             <tr>
@@ -51,6 +51,28 @@
             </tr>
         </tfoot>
     </table>
+    <!-- Formularz -->
+    <form action="" method="GET">
+        <label for="user-name">Imię:</label>
+        <input type="text" name="user-name" id="user-name"
+        placeholder="Imię użytkownika"><br>
+        <input type="email" name="email"
+        placeholder="adres@com" disabled>
+        <input type="number" name="quantity" value="2"><br>
+        <input type="checkbox" name="agreement"
+        id="agreement" required>
+        <label for="agreement">wyrażam zgodę na...</label>
+        <label><input type="radio" name="gender">kobieta</label><br>
+        <label><input type="radio" name="gender">mężczyzna</label>
+        <select name="cities">
+            <option value="warszawa">warszawa</option>
+            <option value="krakow">krakow</option>
+            <option value="gdansk">gdansk</option>
+        </select><br>
+        <textarea name="message" id="message"></textarea>
+        <input type="submit" value="wyslij formularz">
+
+    </form>
 
 
 </body>
