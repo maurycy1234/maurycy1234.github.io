@@ -1,0 +1,7 @@
+*{background-color: orange;}
+
+#pierwszy::before{ content:"Przed pierwszym paragrafem";
+color: palegreen}
+
+#drugi::after{content:"po 2 par";
+color: hotpink}
