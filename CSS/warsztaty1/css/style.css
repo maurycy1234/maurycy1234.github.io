@@ -81,6 +81,6 @@ color:white;
 font-weight: 400
 }
 
-input[type="radio"] {
+input[type="radio"] { float: left;
 display: inline
 }
