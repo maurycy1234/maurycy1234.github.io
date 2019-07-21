@@ -1,0 +1,39 @@
+[title]{
+    color: grey;
+}
+
+a[title] {
+    color: green;
+    }
+
+a[title="About me"] {
+    color: indigo;
+}
+
+[title~="Container"]{
+    background-color: aqua;
+}
+
+
+[title*="tainer"]{
+    background-color: blue;
+}
+
+[title^="More"]{
+    background-color: blueviolet;}
+
+
+a[title$="skills"]{
+    color: yellow
+}
+
+[title]:last-child{
+    background-color: aqua;
+}
+
+nav > ul > li > a[title]{
+    color: darkorange;
+}
+
+
+
