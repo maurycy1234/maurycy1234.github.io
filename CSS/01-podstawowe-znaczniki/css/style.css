@@ -1,0 +1,21 @@
+*{color: crimson
+}
+body{background-color: brown;}
+
+p {
+    background-color: blue;
+}
+
+#kasia { color: hotpink;
+}
+
+.lorak{color: lawngreen;}
+ 
+ul a {color: lightcyan;}
+
+a > span {background-color: limegreen;}
+
+
+li#pierwszy ~ li {background-color: mediumspringgreen;}
+
+li#pierwszy + li {background-color: olive;}
