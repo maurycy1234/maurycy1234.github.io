@@ -1,0 +1,82 @@
+body {
+    background-color:#213b50;
+    color: whitesmoke
+    
+}
+
+input {
+background-color:#2b4a64;
+color: whitesmoke 
+}
+
+select {
+background-color: #2b4a64;
+color: whitesmoke
+}
+
+textarea {
+background-color: #2b4a64;
+color: whitesmoke
+}
+
+input:hover {
+background-color: #4e708c
+}
+
+input:focus{
+border:#4e708c 1px solid  
+}
+
+select:hover{
+background-color: #4e708c
+}
+
+select:focus{
+border:#4e708c 1px solid  
+}
+
+
+textarea:hover{
+background-color: #4e708c
+}
+
+textarea:focus{
+border:#4e708c 1px solid 
+}
+
+form label {
+display: block;
+margin-bottom: 5px
+}
+
+[name="message"]{
+height: 150px;
+width: 300px;
+}
+
+textarea {
+height: 50px;
+width:300px
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"]{
+height: 50px;
+width: 300px
+}
+
+select[name="city"]{
+color: whitesmoke;
+width: 300px;
+}
+
+option {
+color: whitesmoke
+}
+
+input[type="submit"]{
+background-color: green;
+height:20px;
+width:60px;
+color:white;
+font-weight: 400
+}
