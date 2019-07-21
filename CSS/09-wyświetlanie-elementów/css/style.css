@@ -1,0 +1,30 @@
+#p1 {
+    background-color: bisque;
+}
+
+#p2 {
+    background-color: blue;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: blueviolet
+}
+
+#inline-p2 {
+    background-color: darkgoldenrod
+}
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    background-color: mediumaquamarine;
+}
+#display-none {
+    display: none;
+}
