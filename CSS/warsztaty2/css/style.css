@@ -1,0 +1,38 @@
+body {
+    background-color: darkseagreen;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box1 {
+    background-color: green;
+    transition: width 2s;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+#box2 {
+    background-color: red;
+    transition: height 3s;
+}
+
+#box2:hover {
+    height: 300px;
+}
+
+#box3 {
+    background-color: yellow;
+    transition: width 4s, height 5s;
+}
+
+#box3:hover {
+    height: 300px;
+    width: 300px;
+}
