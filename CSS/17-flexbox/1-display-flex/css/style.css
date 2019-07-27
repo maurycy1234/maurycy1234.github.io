@@ -1,0 +1,17 @@
+.flex-item {
+    color: #56df56;
+    font-family: 'lato', sans-serif;
+    padding: 10px;
+    margin: 3px;
+    background-color: darkgray;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: black;
+}
+
+.container {
+    border: 2px dashed red;
+    display: flex;
+}
+
