@@ -4,25 +4,28 @@
     padding: 10px;
     margin: 3px;
     background-color: darkgray;
-    flex-basis: 27%;
-
+    flex-basis: 40%;
+    flex-shrink: 2;
 }
 
 .flex-item:nth-last-of-type(odd) {
     background-color: black;
-    max-height: 150px;
-    overflow: hidden;
 }
 
 .container {
     border: 2px dashed red;
     display: flex;
-    height: 600px;
-   flex-wrap: wrap;
-   align-content: center;
-   justify-content: center;
 }
 
-/* align rozni sie od justify osiami*/
+.ordered-item {
+     flex-shrink: 4;
+}
+
+  
+
+
+
+
+
 
 

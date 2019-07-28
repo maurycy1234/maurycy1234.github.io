@@ -5,13 +5,15 @@
     margin: 3px;
     background-color: darkgray;
     flex-basis: 27%;
+    align-self: flex-start;
 
 }
 
 .flex-item:nth-last-of-type(odd) {
     background-color: black;
-    max-height: 150px;
+    max-height: 100px;
     overflow: hidden;
+    align-self: flex-end;
 }
 
 .container {
@@ -19,10 +21,8 @@
     display: flex;
     height: 600px;
    flex-wrap: wrap;
-   align-content: center;
-   justify-content: center;
+   
 }
 
-/* align rozni sie od justify osiami*/
 
 
