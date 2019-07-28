@@ -1,6 +1,66 @@
-header {
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+}
+
+.main-header {
+	height: 70vh; 
 	background-image: url(../img/header.jpg);
+	background-size: cover;
 	background-position: center;
-	background-attachment: cover;
-	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main-header h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	margin: 0;
+	color: #007bff;
+	padding-top: 100px;
+}
+hr {
+	background-color: #007bff;
+	border: 0;
+	height: 1px;
+	width: 100px;
+}
+
+.button {
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #007bff;
+	margin: auto;
+	display: inline-block;
+	padding: 15px 20px;
+	transition: all 1s;
+	color: #333;
+	background-color: transparent;
+}
+
+.button:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+.main-header p{
+	color: black;
+}
+
+.main-header i{
+	color: #007bff;
+}
+
+section { 
+	text-align: center;
+	padding: 130px 0;
+}
+
+.nav-menu {
+	display: inline; 
 }
