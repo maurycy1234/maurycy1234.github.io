@@ -22,22 +22,24 @@
 
 	<nav class="main-nav">
 	  <ul class="nav-menu">
-		<li class="nav-menu-item"><a href="#about">O mnie</a>></a></li>
-		<li class="nav-menu-item"></li><a href="portfolio">portfolio</a>
-		<li class="nav-menu-item"></li><a href="#contact">kontakt</a>
+		<li class="nav-menu-item"></li><a href="#about">O MNIE</a>
+		<li class="nav-menu-item"></li><a href="portfolio">PORTFOLIO</a>
+		<li class="nav-menu-item"></li><a href="#contact">KONTAKT</a>
 	  </ul>
 	</nav>
-	<section id="about">
-		<div class="second-header">	
+	<section id="about" class="about">
+		<div class="second-header">
+		  <aside id=o-mnie>	
 			<h2>O MNIE</h2>
 			<hr>
-			<img id="about" src="img/about.jpg" alt="about" />
+		  </aside> 
+			<img class="about-image" src="img/about.jpg" alt="about" />
 			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa laborum facere eum eveniet accusamus temporibus.</p>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, debitis reiciendis. Delectus, consequatur voluptate? Expedita.</p>
 			<a href="#portfolio" class="button">Moje portfolio</a>
 		</div>
 	</section>
-    <section id="portfolio">
+    <section id="portfolio" class="portfolio">
 		<div class="third-header">
 			<aside>
 				<h3>PORTFOLIO</h3>
@@ -98,18 +100,22 @@
 	</section>
 	<section>
 	  <div class="ending">
-		<h5>konktakt</h5>
+		<h5>KONTAKT</h5>
+		<hr>
 		<form action="">
-			<input class="imię" type="text">
-			<input class="email" type="email">
+			<input class="bb imię" type="text" placeholder="Twoje imię">
+			<input class="bb email" type="email" placeholder="email" >
 			<textarea placeholder="wiadomość"></textarea>
 			<input type="submit" value="wyślij wiadomość" class="button">
 		</form>
 	  </div>
+	  <div style="clear:both"></div>
+	  <div class="social">
 	  <a href="#" class="social-link"></a><i class="fab fa-facebook-square"></i>
 	  <a href="#" class="social-link"></a><i class="fab fa-twitter"></i>
 	  <a href="#" class="social-link"></a><i class="fab fa-instagram"></i> 
 	  <a href="#" class="social-link"></a><i class="fab fa-youtube"></i>
+	  </div>
 	</section>
 	<footer>
 		<div class="footer">

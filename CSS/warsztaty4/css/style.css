@@ -4,7 +4,9 @@
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	color: #777;
+	color: black;
+	margin: 0 auto;
+	padding: 0;
 }
 
 .main-header {
@@ -35,7 +37,7 @@ hr {
 	text-decoration: none;
 	text-transform: uppercase;
 	border: 1px solid #007bff;
-	margin: auto;
+	margin: 0 auto;
 	display: inline-block;
 	padding: 15px 20px;
 	transition: all 1s;
@@ -61,6 +63,93 @@ section {
 	padding: 130px 0;
 }
 
-.nav-menu {
-	display: inline; 
+.nav-menu-item {
+	display: inline;
 }
+
+.main-nav {
+	background-color: #007bff;
+	text-align: center;
+	height: 5rem;
+	padding: 10px;
+	position: sticky; 
+    top: 0;
+}
+
+.main-nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.about-image {
+	border-radius: 50%;
+}
+
+.portfolio {
+	background-color: #f2f1ed;
+}
+
+.portfolio-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.portfolio-item {
+	flex-basis: 25%;
+	height: 200px;
+	margin: 0;
+	position: relative;
+}
+
+.portfolio-item img {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+.portfolio-wrapper h4 {
+	display: none;
+}
+
+.ending {
+	max-width: 1170px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.ending h5 {
+	font-size: 2em;
+	color: black;
+	font-weight: 400;
+}
+
+form {
+	max-width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+form input {
+	float: left;
+    width: 47%;
+    margin: 5px;
+}
+
+textarea {
+	display: block;
+	width: 97%;
+	margin: 5px;
+}
+
+i {
+	color: #007bff;
+	display: inline;
+
+}
+
+footer {
+	background-color: #f2f1ed;
+	text-align: center;
+}
+
