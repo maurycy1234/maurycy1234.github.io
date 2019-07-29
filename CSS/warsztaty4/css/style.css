@@ -112,7 +112,7 @@ section {
 	display: none;
 }
 
-.ending {
+.ending button {
 	max-width: 1170px;
 	text-align: center;
 	margin: 0 auto;
@@ -130,16 +130,11 @@ form {
 	margin: 0 auto;
 }
 
-form input {
-	float: left;
-    width: 47%;
-    margin: 5px;
-}
 
 textarea {
 	display: block;
-	width: 97%;
-	margin: 5px;
+	width: 84%;
+	margin: 0 auto;
 }
 
 i {
