@@ -1,0 +1,127 @@
+.outer{
+    width: 900px;
+    height: 900px;
+    background-color: red;
+    position: relative;
+    border: 5px solid white;
+  }
+  
+  .inner {
+    width: 295px;
+    height: 295px;
+    position: absolute;
+    border: 5px solid white;
+  }
+
+  .innerinner {
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      border: 1px solid black;
+      border-radius: 100%;
+  }
+  
+  #first {
+  right:0px;
+  background-color: #e4e4e4;
+  }
+
+  #first1 {
+      right:75px;
+      top:75px;
+      background-color: plum;
+  }
+  
+  #second{
+    bottom:0;
+    left:0;
+    background-color: #ff912e;
+  }
+
+  #second2 {
+    right:75px;
+    top:75px;
+    background-color:khaki;
+}
+  
+  #thrid {
+      top: 0;
+    right:300px;
+    background-color: greenyellow;
+  }
+
+  #thrid3 {
+    right:75px;
+    top:75px;
+    background-color:burlywood ;
+}
+
+  #fourth {
+     
+      background-color: green;
+  }
+
+  #fourth4 {
+    right:75px;
+    top:75px;
+    background-color:#983498;
+}
+
+  #fifth {
+      bottom: 0;
+      left: 300px;
+      background-color: blue;
+  }
+
+  #fifth5 {
+    right:75px;
+    top:75px;
+    background-color: black;
+}
+
+  #sixth {
+      bottom: 0;
+      right: 0;
+      background-color: beige;
+  }
+
+  #sixth6 {
+    right:75px;
+    top:75px;
+    background-color: #67262890;
+}
+
+  #seventh {
+      bottom: 300px;
+      background-color: sienna;
+  }
+
+  #seventh7 {
+    right:75px;
+    top:75px;
+    background-color: wheat;
+}
+
+  #eightth {
+      bottom: 300px;
+      left: 300px;
+      background-color: palevioletred;
+  }
+
+  #eightth8 {
+    right:75px;
+    top:75px;
+    background-color: rgb(78, 66, 78);
+}
+
+  #nineth {
+      right: 0;
+      bottom: 300px;
+      background-color: maroon;
+  }
+
+  #nineth9 {
+    right:75px;
+    top:75px;
+    background-color: plum;
+}
