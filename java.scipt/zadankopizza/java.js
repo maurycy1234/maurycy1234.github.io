@@ -1,6 +1,4 @@
-
-        $('#a').on("click", function()
-        {    
+function as(){
     let zgoda = $('#rodo');
     let imie = $('#imie');
     let nazwisko = $('#nazwisko');
@@ -12,7 +10,9 @@
     let soscz = $('#soscz')
     let pizza = $('#pizza')
     let price = $('#price')
-    console.log(imie)
+        $('#a').on("click", function()
+        {    
+   
         if (zgoda.is(":checked") == false){ 
          alert( 'zaznacz zgode na rodo!' );}
         
@@ -49,8 +49,8 @@
 
             }
             else {
-            if (pizza.val() == "-- wybierz pizze --") {
-                $("#pizza").html("<span>nie wybrales pizzy!</span>")
+            if (pizza.val() == 11) {
+                $("#pizz").html("<span>nie wybrales pizzy!</span>")
             }
             else{}
             }
@@ -63,7 +63,7 @@
         }
       }
 
-
+    });
 let priceTable = [
     {
     id:0,
@@ -87,6 +87,7 @@ let priceTable = [
     }
 ];
 
+
 pizza.change(function(){
     let pizzaPrice = 0;
     let pizzaType = $(this).val();
@@ -105,6 +106,7 @@ pizza.change(function(){
 
         return false;
     }
+});
     let orderObject = {
         imie: $.trim(imie.val()),
         nazwisko: $.trim(nazwisko.val()),
@@ -116,12 +118,12 @@ pizza.change(function(){
         sosy: [sospo.is(":checked"), soscz.is(":checked")]
     };
 
-    
-   
-
-     return false;
-    });
-
     console.log(orderObject);
+   
+     return false;
+    
+  
+    
 });
-});
+}
+as();
