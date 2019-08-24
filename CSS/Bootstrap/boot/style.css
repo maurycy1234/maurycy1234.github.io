@@ -1,0 +1,24 @@
+.container.example {
+    height: 250px;
+    background-color: blue;
+}
+
+.container-fluid.example2 {
+    height: 450px;
+    background-color: red;
+}
+
+
+.item {
+    height: 350px;
+    background-color: aqua;
+    border: 1px solid green;
+}
+
+.item:nth-child(2n){
+    background-color: brown;
+}
+
+.carousel-inner {
+    height: 450px;
+}

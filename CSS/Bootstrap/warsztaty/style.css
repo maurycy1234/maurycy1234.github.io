@@ -1,0 +1,14 @@
+.row.h3h3 {
+    background-color: gray;
+}
+
+#sratatata {
+    background-image:url(https://akademia108.pl/kurs-front-end/form-background.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.dupa {
+    background-color:rgba(0, 0, 0, 0.05);
+
+}
